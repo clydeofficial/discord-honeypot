@@ -1,0 +1,30 @@
+{
+  "name": "discord-honeypot",
+  "version": "1.0.0",
+  "description": "Spam botlarını otomatik yakalayan Discord honeypot botu",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "honeypot",
+    "spam",
+    "moderation"
+  ],
+  "license": "MIT",
+  "author": "clydeofficial",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clydeofficial/discord-honeypot.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.1"
+  }
+}
